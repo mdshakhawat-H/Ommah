@@ -1,0 +1,610 @@
+/* extra small device responsive start */
+@media (min-width: 320px) and (max-width: 575.98px) {
+    /* common css start */
+    body{
+        padding: 0 5px;
+    }
+    /* common css end */
+  /* =============== nav part start ================ */
+  nav {
+    padding: 5px 0;
+  }
+  nav .main-nav img {
+    width: 45px;
+  }
+  nav .main-nav ul {
+    gap: 0px;
+  }
+  nav .main-nav ul li {
+    font-size: 9px;
+  }
+  nav .main-nav ul li {
+    width: 55px;
+  }
+  nav .main-nav ul li a::after {
+    display: none;
+}
+
+/* =============== nav part end ================ */
+/* =============== banner part start ================ */
+#banner {
+  padding: 20px 0 30px;
+}
+  #banner .main-banner {
+    display: block;
+    margin: 50px 0 0;
+  }
+  #banner .main-banner .banner-text {
+    margin: 50px 0 0;
+  }
+  #banner .main-banner .banner-text .banner-head {
+	font-weight: 500;
+	font-size: 20px;
+}
+#banner .main-banner .banner-text p {
+	margin: 15px 0 0;
+	width: 70%;
+	font-size: 9px;
+}
+#banner .main-banner .banner-text form {
+	margin: 30px 0 0;
+	gap: 5px;
+}
+#banner .main-banner .banner-text form label {
+	padding: 0px 15px 0px 33px;
+	height: 30px;
+	display: flex inline;
+	width: 100%;
+}
+#banner .main-banner .banner-text form label input {
+	padding: 5px 0;
+	font-size: 9px;
+	width: 100%;
+}
+#banner .main-banner .banner-text form label img {
+	left: 15px;
+	width: 10px;
+}
+#banner .main-banner .banner-text form button {
+	width: 40%;
+	height: 30px;
+	font-size: 9px;
+}
+#banner .main-banner .banner-image{
+    width: 100%;
+    margin-top: 30px;
+}
+  /* =============== banner part end ================ */
+/* =============== tahapan part start ================ */
+#tahapan {
+	padding: 30px 0;
+}
+#tahapan .taha-head {
+	font-weight: 400;
+	font-size: 15px;
+	width: 100%;
+}
+#tahapan .taha-box {
+	margin: 15px 0 0;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#tahapan .taha-box .taha-item {
+	width: 100%;
+	height: 100%;
+	padding: 10px ;
+}
+#tahapan .taha-box .taha-item .taha-head-txt h3 {
+	font-weight: 400;
+	font-size: 12px;
+}
+#tahapan .taha-box .taha-item p {
+	margin: 0;
+	font-size: 9px;
+	line-height: 13px;
+	width: 100%;
+}
+#tahapan .taha-box .taha-item a {
+	margin: 10px 0 0;
+	gap: 4px;
+	font-weight: 400;
+	font-size: 9px;
+}
+/* =============== tahapan part end ================ */
+/* =============== residen part start ================ */
+#residen {
+  background: #EEEDDE;
+	padding: 30px 0 ;
+}
+#residen .residen-head span {
+	font-weight: 400;
+	font-size: 10px;
+}
+#residen .residen-head {
+	font-weight: 500;
+	font-size: 15px;
+}
+#residen .main-residen {
+	margin: 20px 0 0;
+  flex-wrap: wrap;
+}
+#residen .main-residen .residen-image {
+  width: 100%;
+}
+#residen .main-residen .residen-image img{
+  width: 70%;
+}
+#residen .main-residen .residen-image .residentwo {
+	position: absolute;
+	top: 50px;
+	left: 112px;
+	width: 64%;
+}
+#residen .main-residen .residen-txt {
+	width: 100%;
+}
+#residen .main-residen .residen-txt .residen-txt-head {
+	font-weight: 500;
+	font-size: 15px;
+	width: 100%;
+	margin: 60px 0 0;
+}
+#residen .main-residen .residen-txt p {
+	font-weight: 300;
+	font-size: 9px;
+	margin: 10px 0 0;
+}
+#residen .main-residen .residen-txt .residen-button {
+	margin: 25px 0 0;
+	gap: 0;
+	justify-content: space-between;
+}
+#residen .main-residen .residen-txt .residen-button a {
+	padding: 5px 10px;
+	font-weight: 400;
+	font-size: 9px;
+	gap: 7px;
+}
+/* =============== residen part end ================ */
+/* =============== auditor part start ================ */
+#auditor {
+  padding: 20px 0;
+}
+#auditor .auditor-head span {
+	font-weight: 400;
+	font-size: 9px;
+}
+#auditor .auditor-head {
+	font-weight: 500;
+	font-size: 15px;
+}
+#auditor .auditor-main {
+	margin: 30px 0 0;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+#auditor .auditor-main .auditor-item {
+	width: 100%;
+}
+#auditor .auditor-main .auditor-item h3 {
+	font-weight: 400;
+	font-size: 12px;
+}
+#auditor .auditor-main .auditor-item p {
+	font-weight: 300;
+	font-size: 9px;
+	line-height: 15px;
+	margin: 5px 0 0;
+}
+/* =============== auditor part end ================ */
+/* =============== kami part start ================ */
+#kami {
+  padding: 30px 0px;
+	background: #EEEDDE;
+}
+#kami .kami-main {
+	flex-wrap: wrap;
+  row-gap: 50px;
+}
+#kami .kami-main .kami-contact {
+	width: 100%;
+	margin: 20px 0 0;
+  justify-content: space-around;
+}
+#kami .kami-head {
+	font-weight: 500;
+	font-size: 15px;
+  text-align: center;
+}
+#kami .kami-main .kami-contact .contact-item .con-icn-nmbr p {
+	font-weight: 300;
+	font-size: 9px;
+}
+#kami .kami-main .kami-contact .contact-item {
+	padding: 10px;
+}
+#kami .kami-main .kami-contact .contact-item .con-icn-nmbr i {
+	font-size: 10px;
+}
+#kami .kami-main .kami-contact .contact-item .con-icn-nmbr {
+	gap: 10px;
+}
+#kami .kami-main .kami-contact .contact-item .con-icn-nmbr p span {
+	display: inline-block;
+}
+#kami .kami-main .kami-contact .contact-item a {
+	padding: 5px 10px;
+	font-weight: 400;
+	font-size: 9px;
+	margin: 10px 0 0;
+}
+#kami .kami-main .kami-right .kami-right-box {
+	width: 100%;
+}
+#kami .kami-main .kami-right {
+	width: 100%;
+}
+#kami .kami-main .kami-right h2 {
+	font-weight: 500;
+	font-size: 15px;
+}
+#kami .kami-main .kami-right .kami-right-box img {
+	margin: 25px 0 0;
+}
+/* =============== kami part end ================ */
+/* =============== footer part start ================ */
+#footer {
+  padding: 10px 0;
+}
+#footer .foot img{
+  width: 50px;
+}
+#footer .foot ul {
+	display: flex;
+	gap: 15px;
+  padding-right: 5px;
+}
+/* =============== footer part end ================ */
+}
+/* extra small device responsive end */
+/* small device responsive start */
+
+@media (min-width: 576px) and (max-width: 767.89px) { 
+	/* nav start */
+	nav {
+		padding: 15px 5px;
+	}
+	nav .main-nav img{
+		width: 60px;
+	}
+	nav .main-nav ul {
+		gap: 5px;
+	}
+	nav .main-nav ul li {
+		font-size: 12px;
+		width: 80px;
+	}
+	nav .main-nav ul li a::after {
+		height: 1px;
+	}
+	/* nav end */
+	/* banner start */
+	#banner {
+		padding: 5px 5px 50px;
+	}
+	#banner .main-banner .banner-text {
+		margin: 35px 0 0;
+	}
+	#banner .main-banner {
+		display: block;
+	}
+	#banner .main-banner .banner-text .banner-head {
+		font-weight: 500;
+		font-size: 35px;
+	}
+	#banner .main-banner .banner-text p {
+		margin: 24px 0 0;
+		width: 100%;
+		font-size: 12px;
+	}
+	#banner .main-banner .banner-text form {
+		margin: 40px 0 0;
+		justify-content: space-between;
+	}
+	#banner .main-banner .banner-text form label {
+		padding: 0px 15px 0px 56px;
+		height: 40px;
+		width: 85%;
+	}
+	#banner .main-banner .banner-text form label input {
+		padding: 10px 0;
+		font-size: 12px;
+		width: 100%;
+	}
+	#banner .main-banner .banner-text form button {
+		width: 15%;
+		height: 40px;
+		font-size: 12px;
+	}
+	#banner .main-banner .banner-image{
+		width: 100%;
+		margin-top: 40px;
+	}
+	/* banner end */
+	/* tahapan start */
+	#tahapan{
+		padding: 40px 5px ;
+	}
+	#tahapan .taha-head {
+		font-weight: 500;
+		font-size: 22px;
+		width: 100%;
+	}
+	#tahapan .taha-box {
+		margin: 30px 0 0;
+	}
+	#tahapan .taha-box .taha-item {
+		width: 40%;
+		height: auto;
+		padding: 20px;
+	}
+	#tahapan .taha-box {
+		margin: 30px 0 0;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		gap: 30px;
+	}
+	#tahapan .taha-box .taha-item p {
+		font-size: 12px;
+		line-height: 20px;
+		width: 100%;
+	}
+	#tahapan .taha-box .taha-item .taha-head-txt h3::after {
+		width: 3px;
+		height: 27px;
+		top: 0px;
+		left: -15px;
+	}
+	#tahapan .taha-box .taha-item a {
+		margin: 20px 0 0;
+		font-weight: 500;
+		font-size: 12px;
+	}
+	/* tahapan end */
+	/* resident start */
+	#residen {
+		padding: 50px 5px 70px;
+	}
+	#residen .residen-head {
+		font-size: 22px;
+	}
+	#residen .main-residen {
+		display: block;
+	}
+	#residen .main-residen .residen-txt {
+		width: 100%;
+		margin-top: 130px;
+	}
+	#residen .main-residen .residen-txt .residen-txt-head {
+		font-size: 22px;
+		width: 100%;
+		margin: 39px 0 0;
+	}
+	#residen .main-residen .residen-txt p {
+		font-size: 12px;
+		margin: 10px 0 0;
+	}
+	#residen .main-residen .residen-txt .residen-button {
+		margin: 30px 0 0;
+		gap: 20px;
+	}
+	#residen .main-residen .residen-txt .residen-button a {
+		padding: 7px 14px;
+		font-size: 12px;
+		gap: 7px;
+	}
+	/* resident end */
+	/* auditor start */
+	#auditor {
+		padding: 50px 0;
+	}
+	#auditor .auditor-head {
+		font-size: 22px;
+	}
+	#auditor .auditor-main {
+		margin: 20px 0 0;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		row-gap: 30px;
+	}
+	#auditor .auditor-main .auditor-item {
+		width: 45%;
+	}
+	#auditor .auditor-main .auditor-item h3 {
+		font-size: 15px;
+		text-align: center;
+	}
+	#auditor .auditor-main .auditor-item p {
+		font-size: 12px;
+		line-height: 20px;
+		text-align: center;
+	}
+	/* auditor end */
+	/* kami start */
+	#kami {
+		padding: 30px 5px;
+	}
+	#kami .kami-main {
+		display: block;
+	}
+	#kami .kami-main .kami-contact {
+		margin: 20px 0 0;
+		width: 100%;
+		justify-content: space-around;
+	}
+	#kami .kami-head {
+		font-size: 22px;
+	}
+	#kami .kami-main .kami-right .kami-right-box {
+		width: 100%;
+		margin-top: 50px;
+	}
+	#kami .kami-main .kami-right {
+		width: 100%;
+		justify-content: center;
+	}
+	#kami .kami-main .kami-right h2 {
+		font-size: 22px;
+	}
+	#kami .kami-main .kami-right .kami-right-box img {
+		margin: 10px 0 0;
+	}
+	/* kami end */
+	/* footer start */
+	#footer {
+		padding: 10px;
+	}
+	/* footer end */
+}
+/* small device responsive end */
+
+/* medioum device responsive start */
+/* nav start */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	nav {
+		padding: 20px 10px;
+	}
+	nav .main-nav ul {
+		gap: 0px;
+	}
+	/* nav end */
+	/* banner start */
+	#banner .main-banner {
+		gap: 40px;
+		margin: 50px 0 0;
+	}
+	#banner {
+		padding: 96px 10px 70px;
+	}
+	#banner .main-banner .banner-text .banner-head {
+		font-size: 27px;
+	}
+	#banner .main-banner .banner-text {
+		width: 50%;
+	}
+	#banner .main-banner .banner-text p {
+		width: 100%;
+	}
+.banner-image{
+	width: 50%;
+}
+#banner .main-banner .banner-text form label {
+	height: 50px;
+	width: 75%;
+}
+#banner .main-banner .banner-text form button {
+	width: 25%;
+	height: 50px;
+}
+	/* banner end */
+	/* tahapan start */
+	#tahapan {
+		padding: 70px 10px;
+	}
+	#tahapan .taha-head {
+		font-size: 30px;
+		width: 100%;
+	}
+	#tahapan .taha-box .taha-item {
+		width: 33%;
+		height: auto;
+		padding: 20px;
+	}
+	#tahapan .taha-box .taha-item .taha-head-txt h3::after {
+		left: -20px;
+	}
+	#tahapan .taha-box {
+		gap: 15px;
+	}
+	#tahapan .taha-box .taha-item p {
+		font-size: 14px;
+		line-height: 20px;
+		width: 100%;
+	}
+	#tahapan .taha-box .taha-item a {
+		font-size: 14px;
+	}
+	/* tahapan end */
+	/* rasident start */
+	#residen {
+		padding: 68px 10px 150px;
+	}
+	#residen .main-residen .residen-image {
+		width: 40%;
+	}
+	#residen .main-residen .residen-image img{
+		width: 100%;
+	}
+	#residen .main-residen .residen-image .residentwo {
+		left: 100px;
+	}
+	#residen .main-residen .residen-txt {
+		width: 60%;
+		margin-left: 116px;
+	}
+	#residen .main-residen .residen-txt .residen-txt-head {
+		font-size: 27px;
+		width: 100%;
+	}
+	#residen .main-residen .residen-txt .residen-button a {
+		padding: 10px;
+		font-size: 12px;
+	}
+	/* rasident end */
+	/* auditor start */
+	#auditor .auditor-main .auditor-item {
+		width: 33%;
+	}
+	#auditor .auditor-main {
+		gap: 30px;
+		margin-top: 20px;
+	}
+	#auditor {
+		padding: 68px 10px;
+	}
+	#auditor .auditor-main .auditor-item h3 {
+		font-size: 18px;
+	}
+	#auditor .auditor-main .auditor-item p {
+		font-size: 12px;
+		line-height: 25px;
+	}
+	/* auditor end */
+	/* kami start */
+	#kami .kami-head {
+		font-size: 27px;
+	}
+	#kami .kami-main .kami-contact {
+		margin: 40px 0 0;
+	}
+	#kami .kami-main .kami-contact .contact-item {
+		padding: 17px;
+	}
+	#kami .kami-main .kami-contact .contact-item .con-icn-nmbr {
+		gap: 15px;
+	}
+	#kami .kami-main .kami-contact .contact-item .con-icn-nmbr p {
+		font-size: 13px;
+	}
+	#kami .kami-main .kami-contact .contact-item a {
+		padding: 10px;
+		font-size: 13px;
+		margin: 20px 0 0;
+	}
+	#kami .kami-main .kami-right h2 {
+		font-size: 27px;
+	}
+	/* kami end */
+}
+
+/* medioum device responsive end */
